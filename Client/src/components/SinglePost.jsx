@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = 'https://daily-journal-rsjh.onrender.com' || "http://localhost:3000";
 
 const SinglePost = () => {
   const { id } = useParams(); // get post ID from URL
