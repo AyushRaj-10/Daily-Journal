@@ -17,7 +17,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 app.use(cookieParser()) 
 app.use(cors({
-    origin: ['https://daily-journal-blush.vercel.app', 'http://localhost:5173'],
+    origin: 'https://daily-journal-blush.vercel.app',
     credentials: true
 }));
 
