@@ -19,7 +19,8 @@ app.use(cookieParser())
 
 const allowedOrigins = [
   "https://daily-journal-blush.vercel.app",
-  "http://localhost:5173"
+  "http://localhost:5173",
+  "https://inkspace-chi.vercel.app/"
 ];
 
 app.use(cors({
