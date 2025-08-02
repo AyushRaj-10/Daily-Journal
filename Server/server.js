@@ -18,8 +18,12 @@ app.use(express.urlencoded({extended:true}))
 app.use(cookieParser()) 
 
 const allowedOrigins = [
+  process.env.FRONTEND_URL,
+  "http://localhost:5173",
+  "https://daily-journal-blush.vercel.app",
   "https://inkspace-chi.vercel.app"
 ];
+
 
 app.use(cors({
   origin: (origin, callback) => {
