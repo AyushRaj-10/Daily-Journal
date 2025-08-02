@@ -18,7 +18,7 @@ app.use(express.urlencoded({extended:true}))
 app.use(cookieParser()) 
 
 const allowedOrigins = [
-  "https://inkspace-chi.vercel.app/"
+  "https://inkspace-chi.vercel.app"
   "https://daily-journal-blush.vercel.app",
   "http://localhost:5173",
 ];
