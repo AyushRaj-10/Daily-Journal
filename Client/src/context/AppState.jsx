@@ -9,7 +9,7 @@ const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
   const navigate = useNavigate();
-  const BASE_URL = "http://localhost:3000";
+  const BASE_URL = 'https://daily-journal-rsjh.onrender.com' || "http://localhost:3000";
   const { accessToken, user, logout, login } = useAuth();
   const [posts, setPosts] = useState([]);
   const [subject, setSubject] = useState("");
