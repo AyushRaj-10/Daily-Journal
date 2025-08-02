@@ -4,7 +4,7 @@ import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import Cards from "./Cards";
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = 'https://daily-journal-rsjh.onrender.com' || "http://localhost:3000";
 
 const Profile = () => {
   const { accessToken, user, logout, isLoading } = useAuth();
