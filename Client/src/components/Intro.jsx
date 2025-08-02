@@ -38,12 +38,12 @@ const Intro = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Cards
                 subject="Food"
-                author="Varun Babarchi"
+                author="Varun Khatri"
                 image="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=900&auto=format&fit=crop&q=60"
               />
               <Cards
                 subject="Football"
-                author="Rahul Aalsi"
+                author="Rahul Raj"
                 image="https://plus.unsplash.com/premium_photo-1661868926397-0083f0503c07?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vdGJhbGx8ZW58MHx8MHx8fDA%3D"
               />
               
